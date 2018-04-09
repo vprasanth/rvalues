@@ -4,6 +4,12 @@ const stdinParser = require('./lib/parser');
 async function main() {
   try {
     const stdin = await getStdin();
+
+    if (!stdin) {
+      console.log(`Usage -- This program expects data to be sent via stdin -- Please see README.md`);
+      process.exit(1);
+    }
+
     const instructions = stdinParser(stdin);
     let results = [];
 
