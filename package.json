@@ -4,8 +4,8 @@
   "description": "calculate house energy effiency rating based on region",
   "main": "index.js",
   "scripts": {
-    "sample": "cat sample-input | node index.js",
-    "test": "mocha",
+    "sample": "cat test/sample-input | node index.js",
+    "test": "mocha --recursive",
     "start": "node index.js"
   },
   "author": "Prasanth Vaaheeswaran",

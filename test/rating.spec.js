@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const rating = require('../lib/store').rating;
 
-describe('Rating functionn', () => {
+describe('Rating function', () => {
 
   it('should be a function', () => {
     expect(rating).to.be.a('function');  
