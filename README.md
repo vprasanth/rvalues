@@ -17,3 +17,4 @@ cat somefile | node index.js
 
 ## tests
 Run `npm test`.
+
