@@ -1,15 +1,20 @@
 {
   "name": "ecobee-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "calculate house energy effiency rating based on region",
   "main": "index.js",
   "scripts": {
-    "test": "cat sample-input | node index.js",
+    "sample": "cat sample-input | node index.js",
+    "test": "mocha",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Prasanth Vaaheeswaran",
+  "license": "MIT",
   "dependencies": {
     "get-stdin": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
   }
 }
