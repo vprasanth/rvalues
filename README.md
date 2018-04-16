@@ -1,4 +1,5 @@
 # r-value challenge
+[![Build Status](https://semaphoreci.com/api/v1/vprasanth/rvalues/branches/master/badge.svg)](https://semaphoreci.com/vprasanth/rvalues)
 
 ## requirements
 node >8.x
